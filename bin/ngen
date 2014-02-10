@@ -30,7 +30,7 @@ var templates = __dirname + '/../templates';
  * Template.
  */
 
-var template = 'default';
+var template = 'segmentio';
 
 /**
  * Destination path.
@@ -68,7 +68,8 @@ function Template(name) {
   this.contentPath = this.path + '/content';
   this.mod = require(this.path);
   this.values = {
-    year: new Date().getFullYear()
+    year: new Date().getFullYear(),
+    date: new Date().toISOString().substring(0, 10)
   };
   this.directories = {};
 }

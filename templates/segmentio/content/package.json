@@ -1,0 +1,13 @@
+{
+  "name": "{{project}}",
+  "version": "0.0.1",
+  "description": "{{description}}",
+  "keywords": [],
+  "author": "Segment.io team@segment.io",
+  "repository": { "type": "git", "url": "git://github.com/segmentio/{{project}}.git" },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "main": "index"
+}
