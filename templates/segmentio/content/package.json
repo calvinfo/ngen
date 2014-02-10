@@ -9,5 +9,8 @@
   "devDependencies": {
     "mocha": "*"
   },
+  "publishConfig": {
+    "registry": "https://segmentio.registry.nodejitsu.com"
+  },
   "main": "index"
 }
